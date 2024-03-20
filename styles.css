@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(36, 36, 36);
+}
+
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(66, 66, 66);
+}
+.header_top a {
+    color: white;
+    text-decoration: none;
+}
+.header_top a:hover {
+    color: rgb(255, 128, 0);
+}
+.header_img {
+    width: 150px;
+}
+.header_down {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    gap: 10px;
+}
+
+
+.hover-i:hover{
+    color: rgb(255, 128, 0);
+}
+
+
+.banner_main {
+    height: 500px;
+    padding-top: 10px;
+}
+img {
+    max-width: 100%;
+}
+.down_banner {
+    padding-left: 20px;
+    font-size: larger;
+}
+.down_banner a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.home_main {
+    padding-top: 40px;
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-left: 300px;
+}
+.home_main_item h2 {
+    color: white;
+}
+.home_main_item p {
+    color: white;
+}
+.home_main_item {
+    width: 350px;
+}
+
+
+.game_text {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.main_footer {
+    display: flex;
+    justify-content: center;
+    padding: 37px;
+    background-color: black;
+}
+.itemfooter1 {
+    color: white;
+}
+.itemfooter2 {
+    color: white;
+}
+.itemfooter3 {
+    color: white;
+}
+.itemfooter1:hover {
+    color: rgb(255, 128, 0);
+}
+.itemfooter2:hover {
+    color: rgb(255, 128, 0);
+}
+.itemfooter3:hover {
+    color: rgb(255, 128, 0);
+}
